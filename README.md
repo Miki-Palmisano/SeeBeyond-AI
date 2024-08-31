@@ -4,8 +4,8 @@ SeeBeyond è un progetto, sviluppato a fini educativi, che ha come obiettivo per
 <img src="https://github.com/user-attachments/assets/19148584-e54c-49b3-a5e1-0ac05b28fde4" alt="image" width="300" height="auto"/>
 
 Il progetto SeeBeyond si compone di un backend e un frontend: \
-Repository Backend: {https://github.com/Miki-Palmisano/SeeBeyond-AI} \
-Repository Frontend: {https://github.com/Miki-Palmisano/SeeBeyond}
+Repository Backend: https://github.com/Miki-Palmisano/SeeBeyond-AI \
+Repository Frontend: https://github.com/Miki-Palmisano/SeeBeyond
 
 ## SeeBeyond AI
 
@@ -61,8 +61,8 @@ L’avviso di copyright sopra riportato e questo avviso di permesso devono esser
 Ideato e Realizzato da <br>
   <br>
 Miki Palmisano - <a href="https://github.com/Miki-Palmisano">Link GitHub</a> <br>
-Riccardo Semeraro - [Link GitHub](https://github.com/riccardosemeraro) <br>
-Davide Verditto - [Link GitHub](https://github.com/wDaaV) <br>
+Riccardo Semeraro - <a href="https://github.com/riccardosemeraro">Link GitHub</a> <br>
+Davide Verditto - <a href="https://github.com/wDaaV">Link GitHub</a> <br>
 <br>
 Un gruppo di Studenti del ![Politecnico di Bari](http://www.poliba.it/) <br>
 <br>
