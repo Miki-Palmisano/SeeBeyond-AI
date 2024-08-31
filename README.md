@@ -64,7 +64,7 @@ Miki Palmisano - <a href="https://github.com/Miki-Palmisano">Link GitHub</a> <br
 Riccardo Semeraro - <a href="https://github.com/riccardosemeraro">Link GitHub</a> <br>
 Davide Verditto - <a href="https://github.com/wDaaV">Link GitHub</a> <br>
 <br>
-Un gruppo di Studenti del ![Politecnico di Bari](http://www.poliba.it/) <br>
+Un gruppo di Studenti del <a href="http://www.poliba.it/">Politecnico di Bari</a> <br>
 <br>
 Progetto rivolto a persone ipovedenti che necessitano di sostegno e sicurezza per orientarsi in qualsiasi luogo circostante.
 </p>
