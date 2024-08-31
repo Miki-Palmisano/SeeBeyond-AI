@@ -41,7 +41,9 @@ di apprendimento del modello, obiettivo è quello di minimizzarlo. Dopo numerosi
 \
 In particolare si è sfruttata l’architettura di Pytorch mediante l’uso di uno Scheduler, algoritmo che in base a dei parametri preimpostati, monitora costantemente l’apprendimento del modello, riducendo il Learning Rate in caso di divergenza dello stesso. Il modello, addestrato sul nostro dataset, è stato poi salvato in un formato ".pth" nativo di PyTorch, il quale consente di essere utilizzato successivamente. Per la fase di riconoscimento quindi si è aggiunto il modello di partenza (Faster R-CNN ResNet50) e si sono impostati i pesi derivati dall’addestramento. Le percentuali risultanti che ha offerto sono apprezzabili in fase prototipale. La dimostrazione del funzionamento del protipo è presente nella figura di seguito.
 
+<p align="center">
 <img src="https://github.com/user-attachments/assets/a50787fa-1b62-4f41-91f9-420baacd0e87" alt="image" width="auto" height="300">
+</p>
 
 ### Calcolo della distanza
 
@@ -50,6 +52,30 @@ Dopo aver ottenuto un modello apprezzabile, si è occupati di riuscire a calcola
 ### Conclusione
 
 Il tempo impiegato per progettare e implementare il sistema non è stato sufficiente a realizzare un prototipo completo in ogni sua parte, dunque nella sua fase prototipale si è scelto di ridurre il numero di classi a due, mostrando però le potenzialità che possono scaturire da quello che è idealmente SeeBeyond.
+
+## Obiettivi Futuri
+
+### Potenziamento dell'AI (prime fasi minime)
+Come prima obiettivo futuro c’è sicuramente l’aumento del numero di classi riconosciute dal Software AI, essendo fino ad ora solo due ("Gatto" e "Auto"), andando ad addestrare l’AI stessa in modo da includere quante più entità possibili, ed aumentarne l’affidabilità di riconoscimento. \
+\
+Ulteriore successiva pubblicazione si concentrerà sull’implementazione dell’OCR, funzionalità dapprima testata usando la libreria Tesseract ma successivamente accantonata in quanto non soddisfava i requisiti minimi. \
+
+### Classificazione degli Ambienti (Upgrade AI)
+
+Funzionalità aggiuntiva di sicurezza è la classificazione degli ambienti, a partire da un ambiente Cittadino fino ad arrivare ad un ambiente Sterrato, in quanto potrebbe tornare utile all’utente saperlo.
+In aggiunta a queste si informeranno gli utenti dei punti di pericolosità situati in esse, come:
+<ul>
+  <li>Scale o buche in ambiente cittadino;</li>
+  <li>Ammassi di roccia o parti di strada dismessi in ambiente sterrato;</li>
+  <li>Eventuali punti poco chiari (per illuminazione o per mancato ricono- scimento) o sospetti in caso di qualsiasi ambiente.</li>
+</ul>
+
+### Gestione Pericolosità e Umore Animali (Upgrade AI)
+
+Un’altra funzionalità interessante è la gestione della pericolosità, momentanea o permanente, degli animali, implementando, qualora un animale fosse classificato come "pericoloso", tecniche per fare in modo di scacciarlo e renderlo inoffensivo. \
+\
+In un’ulteriore prospettiva futura, si prevede di implementare la capacità di rilevare lo stato emotivo degli animali.
+
 
 ## TERMINI E CONDIZIONI D'USO
 
