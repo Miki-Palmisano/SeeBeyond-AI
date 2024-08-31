@@ -15,6 +15,5 @@ Queste tecnologie offrono la possibilità di elaborare e analizzare immagini, ri
 \
 In Python, si è scelto di progettare (dunque non implementato) anche un Optical Character Recognition (OCR), tecnologia che consente di convertire immagini di testo stampato o scritto a mano in testo elettronico editabile. L’obiettivo principale di questa scelta è quello di permettere agli utenti con deficit visivi di essere informati su comunicazioni ed eventi che circondano la vita quotidiana, partendo da un cartello stradale o una locandina di un evento fino ad arrivare a dei semplici nomi e prezzi di prodotti acquistabili in un supermercato.
 
-## 
-![image](https://github.com/user-attachments/assets/2790d419-b8ca-4ef1-b2ee-f2f544a6ea56)
+##
 
