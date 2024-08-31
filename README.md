@@ -30,7 +30,7 @@ Dopo aver approfondito vantaggi e svantaggi, si è optato per Pytorch in quanto 
 
 ### Dataset
 
-Il dataset iniziale è costituito da due sole classi, "gatto" e "automobile". Lo stesso è stato costruito grazie ad uno script scritto ad hoc che, connettendosi con COCO Dataset presente online (dataset.py), acquisisce Immagini, Label e Boxes al fine di individuare velocemente le entità nei frame, necessari per la fase di train di un modello di Object Detection. Le Label non sono altro che i campi che contengono l’identificativo della classe dell’oggetto, mentre i Boxes sono proprio le figure geometriche che circoscrivono l’oggetto riconosciuto (solitamente vengono utilizzati dei rettangoli).
+Il dataset iniziale è costituito da due sole classi, "gatto" e "automobile". Lo stesso è stato costruito grazie ad uno script scritto ad hoc che, connettendosi con <a href='https://cocodataset.org/#home'>COCO Dataset</a> presente online (dataset.py), acquisisce Immagini, Label e Boxes al fine di individuare velocemente le entità nei frame, necessari per la fase di train di un modello di Object Detection. Le Label non sono altro che i campi che contengono l’identificativo della classe dell’oggetto, mentre i Boxes sono proprio le figure geometriche che circoscrivono l’oggetto riconosciuto (solitamente vengono utilizzati dei rettangoli).
 
 ### Addestramento
 
