@@ -63,9 +63,9 @@ Ideato e Realizzato da <br>
 Miki Palmisano - Link GitHub <br>
 Riccardo Semeraro - Link GitHub <br>
 Davide Verditto - Link GitHub <br>
-\
-Un gruppo di Studenti del Politecnico di Bari \
-\
+<br>
+Un gruppo di Studenti del Politecnico di Bari <br>
+<br>
 Progetto rivolto a persone ipovedenti che necessitano di sostegno e sicurezza per orientarsi in qualsiasi luogo circostante.
 </p>
 
