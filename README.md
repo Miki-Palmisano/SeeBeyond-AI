@@ -39,10 +39,37 @@ Il train si struttura in epoche, dove per ogni epoca viene analizzato il dataset
 di apprendimento del modello, obiettivo è quello di minimizzarlo. Dopo numerosi test e dopo aver cambiato i parametri del Learning Rate, Batch Size (numero di immagini analizzate simultaneamente per volta) e Weight Decay (paramentro che regolarizza l’aggiornamento dei pesi del modello in modo tale da non ricadere in Overfitting, cioè l’adattamento eccessivo del modello ai dati di addestramento) abbiamo ottenuto un modello con valore di LOSS del circa 8% che esaudiva le richieste minime del prototipo. \
 \
 In particolare si è sfruttata l’architettura di Pytorch mediante l’uso di uno Scheduler, algoritmo che in base a dei parametri preimpostati, monitora costantemente l’apprendimento del modello, riducendo il Learning Rate in caso di divergenza dello stesso. Il modello, addestrato sul nostro dataset, è stato poi salvato in un formato ".pth" nativo di PyTorch, il quale consente di essere utilizzato successivamente. Per la fase di riconoscimento quindi si è aggiunto il modello di partenza (Faster R-CNN ResNet50) e si sono impostati i pesi derivati dall’addestramento. Le percentuali risultanti che ha offerto sono apprezzabili in fase prototipale. La dimostrazione del funzionamento del protipo è presente nella figura di seguito. \
-\
 
 <img src="https://github.com/user-attachments/assets/a50787fa-1b62-4f41-91f9-420baacd0e87" alt="image" width="auto" height="300">
 
-
 ### Calcolo della distanza
+
+Dopo aver ottenuto un modello apprezzabile, si è occupati di riuscire a calcolare la distanza delle entità, usando il criterio della Fotogrammetria, secondo cui, disponendo di due frame contenenti la stessa entità in movimento, si riesce a calcolarne la distanza mediante le formule di base alla trigonometria. In fase prototipale si è usati la webcam del MacBook e la videocamera dell’iPhone, tecnologia disponibile in ambiente Apple che, seppur diverse in specifiche tecniche, hanno restituito risultati accettabili. Di norma si devono disporre di due videocamere identiche. Su ogni frame si è andati dunque a disegnare il Box che circondava l’entità riconosciuta, derivata dalla Object Detection, la tipologia "auto" o "gatto", derivata dall’addestramento, e la distanza, derivata dalla triangolazione.
+
+### Conclusione
+
+Il tempo impiegato per progettare e implementare il sistema non è stato sufficiente a realizzare un prototipo completo in ogni sua parte, dunque nella sua fase prototipale si è scelto di ridurre il numero di classi a due, mostrando però le potenzialità che possono scaturire da quello che è idealmente SeeBeyond.
+
+## Licenza
+
+© [SeeBeyond - Guarda Oltre] - [2023/2024] \
+\
+**
+IL CODICE È FORNITO “COSÌ COM’È” SENZA GARANZIA DI ALCUN TIPO, CONCESSO A TITOLO GRATUITO A QUALSIASI PERSONA E DI UTILIZZARLO SENZA RESTRIZIONI, ESCLUDENDO FINI DI COMMERCIABILITÀ. IN NESSUN CASO GLI AUTORI DEL CODICE SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNI O ALTRA RESPONSABILITÀ, DERIVANTI DA O IN CONNESSIONE CON IL CODICE O L’USO.
+**\
+\
+L’avviso di copyright sopra riportato e questo avviso di permesso devono essere inclusi in tutte le copie o porzioni sostanziali, citando gli autori del suddetto:\
+<center>
+Ideato e Realizzato da \
+\
+Miki Palmisano - Link GitHub \
+Riccardo Semeraro - Link GitHub \
+Davide Verditto - Link GitHub \
+\
+Un gruppo di Studenti del Politecnico di Bari \
+\
+Progetto rivolto a persone ipovedenti che necessitano di sostegno e sicurezza per orientarsi in qualsiasi luogo circostante.
+</center>
+
+
 
