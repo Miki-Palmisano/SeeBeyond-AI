@@ -60,7 +60,7 @@ L’avviso di copyright sopra riportato e questo avviso di permesso devono esser
 <p align="center">
 Ideato e Realizzato da <br>
   <br>
-Miki Palmisano - [Link GitHub](https://github.com/Miki-Palmisano) <br>
+Miki Palmisano - <a href="https://github.com/Miki-Palmisano">Link GitHub</a> <br>
 Riccardo Semeraro - [Link GitHub](https://github.com/riccardosemeraro) <br>
 Davide Verditto - [Link GitHub](https://github.com/wDaaV) <br>
 <br>
