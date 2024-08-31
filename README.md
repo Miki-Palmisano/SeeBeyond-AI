@@ -50,7 +50,7 @@ Dopo aver ottenuto un modello apprezzabile, si è occupati di riuscire a calcola
 
 Il tempo impiegato per progettare e implementare il sistema non è stato sufficiente a realizzare un prototipo completo in ogni sua parte, dunque nella sua fase prototipale si è scelto di ridurre il numero di classi a due, mostrando però le potenzialità che possono scaturire da quello che è idealmente SeeBeyond.
 
-## Licenza
+## TERMINI E CONDIZIONI D'USO
 <p align="center">
 © [SeeBeyond - Guarda Oltre] - [2023/2024] <br>
   <br>
