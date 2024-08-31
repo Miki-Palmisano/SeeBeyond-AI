@@ -1,8 +1,7 @@
 # SeeBeyond - Guarda Oltre
 SeeBeyond è un progetto, sviluppato a fini educativi, che ha come obiettivo per attenuare le problematiche degli ipovedenti e si pone come obiettivo quello di aiutarle nella loro vita quotidiana, ma con scopo primario quello di riconoscere e calcolare la distanza delle entità che circondano l’utente.
 
-<img src="https://github.com/user-attachments/assets/19148584-e54c-49b3-a5e1-0ac05b28fde4" alt="image" width="300" height="auto" style="align: center"/>
-
+<img src="https://github.com/user-attachments/assets/19148584-e54c-49b3-a5e1-0ac05b28fde4" alt="image" width="300" height="auto"/>
 
 Il progetto SeeBeyond si compone di un backend e un frontend: \
 Repository Backend: {https://github.com/Miki-Palmisano/SeeBeyond-AI} \
@@ -18,5 +17,32 @@ Queste tecnologie offrono la possibilità di elaborare e analizzare immagini, ri
 \
 In Python, si è scelto di progettare (dunque non implementato) anche un Optical Character Recognition (OCR), tecnologia che consente di convertire immagini di testo stampato o scritto a mano in testo elettronico editabile. L’obiettivo principale di questa scelta è quello di permettere agli utenti con deficit visivi di essere informati su comunicazioni ed eventi che circondano la vita quotidiana, partendo da un cartello stradale o una locandina di un evento fino ad arrivare a dei semplici nomi e prezzi di prodotti acquistabili in un supermercato.
 
-###
+## Implementazione e Test
+
+### Librerie e Modelli
+
+SeeBeyond, in quanto riconoscitore di entità (oggetti o animali), ha avuto bisogno di un Object Detection, che si differenzia da comune Computer Vision dalla possibilità di non solo riconoscere ma anche localizzare l’oggetto nel frame, necessario al calcolo della distanza. Dunque si sono andate valutate le librerie PyTorch e TensorFlow, entrambi framework di Machine Learning open-source. \
+\
+PyTorch e TensorFlow presentano alcune differenze significative nella gestione della parte di Addestramento: PyTorch utilizza un grafico computazionale dinamico, che consente modifiche durante l’esecuzione, facilitando il debug e la sperimentazione, dunque durante il train si possono modificare parametri di apprendimento in modo da far convergere il grafico. TensorFlow, invece, si basa su un grafico statico, offrendo potenzialmente vantaggi di ottimizzazione durante l’esecuzione e maggiore velocità, a discapito però della garanzia di successo. Inoltre, PyTorch è spesso elogiato per la sua sintassi intuitiva e approccio "Pythonic", rendendo più agevole la scrittura di codice. D’altro canto, TensorFlow ha un ecosistema più ampio e particolarmente forte con l’integrazione di strumenti esterni o di terze parti. \
+\
+Dopo aver approfondito vantaggi e svantaggi, si è optato per Pytorch in quanto più flessibile e maneggevole rispetto TensorFlow. Per quanto riguarda le tipologie di train di AI, si è ritenuto interessante l’approccio che segue il Trasfered Learning, ovvero acquisire un modello preaddestrato, Faster R-CNN ResNet50 nel caso in questione, e sostituirne il layer di dataset con uno costruito in base alle esigenze progettuali. \
+
+### Dataset
+
+Il dataset iniziale è costituito da due sole classi, "gatto" e "automobile". Lo stesso è stato costruito grazie ad uno script scritto ad hoc che, connettendosi con COCO Dataset presente online (dataset.py), acquisisce Immagini, Label e Boxes al fine di individuare velocemente le entità nei frame, necessari per la fase di train di un modello di Object Detection. Le Label non sono altro che i campi che contengono l’identificativo della classe dell’oggetto, mentre i Boxes sono proprio le figure geometriche che circoscrivono l’oggetto riconosciuto (solitamente vengono utilizzati dei rettangoli).
+
+### Addestramento
+
+La fase di addestramento del modello parte dall’adattamento del dataset di COCO in un formato riconoscibile dal modello Faster R-CNN ResNet50, dove 50 sono i layer che costituiscono il modello stesso. Nel nostro caso, dopo aver convertito il dataset (convertDataset.py) ricavandone il box e assegnando un nosto label (formato da ID e Nome), sostituiamo l’ultimo layer, tecnica chiamata Transfered Learning. \
+\
+Il train si struttura in epoche, dove per ogni epoca viene analizzato il dataset in toto. Indice di convergenza è il valore di LOSS che indica la perdita 
+di apprendimento del modello, obiettivo è quello di minimizzarlo. Dopo numerosi test e dopo aver cambiato i parametri del Learning Rate, Batch Size (numero di immagini analizzate simultaneamente per volta) e Weight Decay (paramentro che regolarizza l’aggiornamento dei pesi del modello in modo tale da non ricadere in Overfitting, cioè l’adattamento eccessivo del modello ai dati di addestramento) abbiamo ottenuto un modello con valore di LOSS del circa 8% che esaudiva le richieste minime del prototipo. \
+\
+In particolare si è sfruttata l’architettura di Pytorch mediante l’uso di uno Scheduler, algoritmo che in base a dei parametri preimpostati, monitora costantemente l’apprendimento del modello, riducendo il Learning Rate in caso di divergenza dello stesso. Il modello, addestrato sul nostro dataset, è stato poi salvato in un formato ".pth" nativo di PyTorch, il quale consente di essere utilizzato successivamente. Per la fase di riconoscimento quindi si è aggiunto il modello di partenza (Faster R-CNN ResNet50) e si sono impostati i pesi derivati dall’addestramento. Le percentuali risultanti che ha offerto sono apprezzabili in fase prototipale. La dimostrazione del funzionamento del protipo è presente nella figura di seguito. \
+\
+
+<img src="https://github.com/user-attachments/assets/a50787fa-1b62-4f41-91f9-420baacd0e87" alt="image" width="auto" height="300">
+
+
+### Calcolo della distanza
 
