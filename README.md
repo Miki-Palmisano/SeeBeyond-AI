@@ -51,13 +51,13 @@ Dopo aver ottenuto un modello apprezzabile, si è occupati di riuscire a calcola
 Il tempo impiegato per progettare e implementare il sistema non è stato sufficiente a realizzare un prototipo completo in ogni sua parte, dunque nella sua fase prototipale si è scelto di ridurre il numero di classi a due, mostrando però le potenzialità che possono scaturire da quello che è idealmente SeeBeyond.
 
 ## Licenza
-
-© [SeeBeyond - Guarda Oltre] - [2023/2024] \
-\
-**IL CODICE È FORNITO “COSÌ COM’È” SENZA GARANZIA DI ALCUN TIPO, CONCESSO A TITOLO GRATUITO A QUALSIASI PERSONA E DI UTILIZZARLO SENZA RESTRIZIONI, ESCLUDENDO FINI DI COMMERCIABILITÀ. IN NESSUN CASO GLI AUTORI DEL CODICE SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNI O ALTRA RESPONSABILITÀ, DERIVANTI DA O IN CONNESSIONE CON IL CODICE O L’USO.** \
-\
-L’avviso di copyright sopra riportato e questo avviso di permesso devono essere inclusi in tutte le copie o porzioni sostanziali, citando gli autori del suddetto:
 <p align="center">
+© [SeeBeyond - Guarda Oltre] - [2023/2024] <br>
+  <br>
+**IL CODICE È FORNITO “COSÌ COM’È” SENZA GARANZIA DI ALCUN TIPO, CONCESSO A TITOLO GRATUITO A QUALSIASI PERSONA E DI UTILIZZARLO SENZA RESTRIZIONI, ESCLUDENDO FINI DI COMMERCIABILITÀ. IN NESSUN CASO GLI AUTORI DEL CODICE SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNI O ALTRA RESPONSABILITÀ, DERIVANTI DA O IN CONNESSIONE CON IL CODICE O L’USO.** <br>
+<br>
+L’avviso di copyright sopra riportato e questo avviso di permesso devono essere inclusi in tutte le copie o porzioni sostanziali, citando gli autori del suddetto: <br>
+<br>
 Ideato e Realizzato da <br>
   <br>
 Miki Palmisano - <a href="https://github.com/Miki-Palmisano">Link GitHub</a> <br>
