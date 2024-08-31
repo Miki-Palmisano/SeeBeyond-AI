@@ -56,15 +56,15 @@ Il tempo impiegato per progettare e implementare il sistema non è stato suffici
 \
 **IL CODICE È FORNITO “COSÌ COM’È” SENZA GARANZIA DI ALCUN TIPO, CONCESSO A TITOLO GRATUITO A QUALSIASI PERSONA E DI UTILIZZARLO SENZA RESTRIZIONI, ESCLUDENDO FINI DI COMMERCIABILITÀ. IN NESSUN CASO GLI AUTORI DEL CODICE SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNI O ALTRA RESPONSABILITÀ, DERIVANTI DA O IN CONNESSIONE CON IL CODICE O L’USO.** \
 \
-L’avviso di copyright sopra riportato e questo avviso di permesso devono essere inclusi in tutte le copie o porzioni sostanziali, citando gli autori del suddetto:\
+L’avviso di copyright sopra riportato e questo avviso di permesso devono essere inclusi in tutte le copie o porzioni sostanziali, citando gli autori del suddetto:
 <p align="center">
 Ideato e Realizzato da <br>
   <br>
-Miki Palmisano - Link GitHub <br>
-Riccardo Semeraro - Link GitHub <br>
-Davide Verditto - Link GitHub <br>
+Miki Palmisano - ![Link GitHub](https://github.com/Miki-Palmisano) <br>
+Riccardo Semeraro - ![Link GitHub](https://github.com/riccardosemeraro) <br>
+Davide Verditto - ![Link GitHub](https://github.com/wDaaV) <br>
 <br>
-Un gruppo di Studenti del Politecnico di Bari <br>
+Un gruppo di Studenti del ![Politecnico di Bari](http://www.poliba.it/) <br>
 <br>
 Progetto rivolto a persone ipovedenti che necessitano di sostegno e sicurezza per orientarsi in qualsiasi luogo circostante.
 </p>
