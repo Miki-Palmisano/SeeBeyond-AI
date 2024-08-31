@@ -1,7 +1,7 @@
 # SeeBeyond - Guarda Oltre
 SeeBeyond è un progetto, sviluppato a fini educativi, che ha come obiettivo per attenuare le problematiche degli ipovedenti e si pone come obiettivo quello di aiutarle nella loro vita quotidiana, ma con scopo primario quello di riconoscere e calcolare la distanza delle entità che circondano l’utente.
 
-<img src="https://github.com/user-attachments/assets/19148584-e54c-49b3-a5e1-0ac05b28fde4" alt="image" width="300" height="auto"/>
+<img src="https://github.com/user-attachments/assets/19148584-e54c-49b3-a5e1-0ac05b28fde4" alt="image" width="300" height="auto" align="center"/>
 
 Il progetto SeeBeyond si compone di un backend e un frontend: \
 Repository Backend: https://github.com/Miki-Palmisano/SeeBeyond-AI \
