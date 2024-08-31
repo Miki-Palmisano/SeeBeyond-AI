@@ -58,11 +58,11 @@ Il tempo impiegato per progettare e implementare il sistema non è stato suffici
 \
 L’avviso di copyright sopra riportato e questo avviso di permesso devono essere inclusi in tutte le copie o porzioni sostanziali, citando gli autori del suddetto:\
 <p align="center">
-Ideato e Realizzato da \
-\
-Miki Palmisano - Link GitHub \
-Riccardo Semeraro - Link GitHub \
-Davide Verditto - Link GitHub \
+Ideato e Realizzato da <br>
+
+Miki Palmisano - Link GitHub <br>
+Riccardo Semeraro - Link GitHub <br>
+Davide Verditto - Link GitHub <br>
 \
 Un gruppo di Studenti del Politecnico di Bari \
 \
