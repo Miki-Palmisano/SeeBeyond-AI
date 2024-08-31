@@ -54,10 +54,10 @@ Il tempo impiegato per progettare e implementare il sistema non è stato suffici
 
 © [SeeBeyond - Guarda Oltre] - [2023/2024] \
 \
-** IL CODICE È FORNITO “COSÌ COM’È” SENZA GARANZIA DI ALCUN TIPO, CONCESSO A TITOLO GRATUITO A QUALSIASI PERSONA E DI UTILIZZARLO SENZA RESTRIZIONI, ESCLUDENDO FINI DI COMMERCIABILITÀ. IN NESSUN CASO GLI AUTORI DEL CODICE SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNI O ALTRA RESPONSABILITÀ, DERIVANTI DA O IN CONNESSIONE CON IL CODICE O L’USO.** \
+**IL CODICE È FORNITO “COSÌ COM’È” SENZA GARANZIA DI ALCUN TIPO, CONCESSO A TITOLO GRATUITO A QUALSIASI PERSONA E DI UTILIZZARLO SENZA RESTRIZIONI, ESCLUDENDO FINI DI COMMERCIABILITÀ. IN NESSUN CASO GLI AUTORI DEL CODICE SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNI O ALTRA RESPONSABILITÀ, DERIVANTI DA O IN CONNESSIONE CON IL CODICE O L’USO.** \
 \
 L’avviso di copyright sopra riportato e questo avviso di permesso devono essere inclusi in tutte le copie o porzioni sostanziali, citando gli autori del suddetto:\
-<center>
+<p align="center">
 Ideato e Realizzato da \
 \
 Miki Palmisano - Link GitHub \
@@ -67,7 +67,7 @@ Davide Verditto - Link GitHub \
 Un gruppo di Studenti del Politecnico di Bari \
 \
 Progetto rivolto a persone ipovedenti che necessitano di sostegno e sicurezza per orientarsi in qualsiasi luogo circostante.
-</center>
+</p>
 
 
 
