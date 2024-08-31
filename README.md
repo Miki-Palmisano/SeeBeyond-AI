@@ -60,9 +60,9 @@ L’avviso di copyright sopra riportato e questo avviso di permesso devono esser
 <p align="center">
 Ideato e Realizzato da <br>
   <br>
-Miki Palmisano - ![Link GitHub](https://github.com/Miki-Palmisano) <br>
-Riccardo Semeraro - ![Link GitHub](https://github.com/riccardosemeraro) <br>
-Davide Verditto - ![Link GitHub](https://github.com/wDaaV) <br>
+Miki Palmisano - [Link GitHub](https://github.com/Miki-Palmisano) <br>
+Riccardo Semeraro - [Link GitHub](https://github.com/riccardosemeraro) <br>
+Davide Verditto - [Link GitHub](https://github.com/wDaaV) <br>
 <br>
 Un gruppo di Studenti del ![Politecnico di Bari](http://www.poliba.it/) <br>
 <br>
